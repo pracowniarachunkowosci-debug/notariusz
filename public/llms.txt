@@ -10,7 +10,7 @@ Kancelaria notarialna Marii Czarniak i Sary Podkówki we Wrocławiu, na Muchobor
 - Rodzina
 - Pozostałe czynności notarialne
 
-Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możliwość opisania sprawy w lokalnej wyszukiwarce. Pełna struktura adresów URL zostanie rozwinięta wraz z kolejnymi sprintami.
+Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możliwość opisania sprawy w lokalnej wyszukiwarce. Dostępny jest również merytoryczny przewodnik dotyczący założenia spółki z o.o. u notariusza.
 
 ## Usługa
 
