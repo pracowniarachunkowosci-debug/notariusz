@@ -7,10 +7,21 @@
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+section[id], article[id], a[id], div[id="kontakt"], footer[id] { scroll-margin-top: 6rem; }
 body { margin: 0; background: var(--background); color: var(--text); font-family: var(--font-manrope), sans-serif; -webkit-font-smoothing: antialiased; }
 a, button, input { -webkit-tap-highlight-color: transparent; }
 button, a { outline-offset: 4px; }
 :focus-visible { outline: 2px solid var(--dark-olive); outline-offset: 4px; }
+.page-shell > header.sticky { background-color: var(--background); border-bottom-color: rgb(221 216 206 / 0.6); backdrop-filter: none; }
+#search-results { min-height: 0; }
+#sprawy ul { font-size: 0.875rem; }
+@media (min-width: 1024px) {
+  #kancelaria article:nth-of-type(2) > div:first-child { grid-column-start: 7; }
+  #kancelaria article:nth-of-type(2) > div:last-child { grid-column-start: 1; }
+}
+@media (max-width: 1023px) {
+  #kontakt dl > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; min-height: 61px; }
+}
 .font-display { font-family: var(--font-newsreader), serif; }
 .page-shell { animation: page-in 700ms cubic-bezier(.22,1,.36,1) both; }
 .intro-eyebrow { animation: reveal-up 500ms 100ms cubic-bezier(.22,1,.36,1) both; }
