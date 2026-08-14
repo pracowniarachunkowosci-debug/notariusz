@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root { --background: #f5f2eb; --surface: #fbfaf7; --text: #22221f; --muted: #66645e; --olive: #68705d; --dark-olive: #4e5546; --border: #ddd8ce; --secondary: #ece8de; }
+@theme inline {
+  --color-background: var(--background); --color-surface: var(--surface); --color-foreground: var(--text); --color-muted: var(--muted); --color-olive: var(--olive); --color-dark-olive: var(--dark-olive); --color-border: var(--border); --color-secondary: var(--secondary);
+  --font-sans: var(--font-manrope); --font-serif: var(--font-newsreader);
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--background); color: var(--text); font-family: var(--font-manrope), sans-serif; -webkit-font-smoothing: antialiased; }
+a, button, input { -webkit-tap-highlight-color: transparent; }
+button, a { outline-offset: 4px; }
+:focus-visible { outline: 2px solid var(--dark-olive); outline-offset: 4px; }
+.font-display { font-family: var(--font-newsreader), serif; }
+.page-shell { animation: page-in 700ms cubic-bezier(.22,1,.36,1) both; }
+.intro-eyebrow { animation: reveal-up 500ms 100ms cubic-bezier(.22,1,.36,1) both; }
+.intro-heading { animation: reveal-up 650ms 150ms cubic-bezier(.22,1,.36,1) both; }
+.intro-copy { animation: reveal-up 600ms 450ms cubic-bezier(.22,1,.36,1) both; }
+.intro-visual-line { animation: line-draw 650ms 250ms cubic-bezier(.22,1,.36,1) both; transform-origin: top; }
+.intro-visual-image { animation: image-reveal 700ms 300ms cubic-bezier(.22,1,.36,1) both; }
+@keyframes page-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes reveal-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes line-draw { from { transform: scaleY(0); opacity: 0; } to { transform: scaleY(1); opacity: 1; } }
+@keyframes image-reveal { from { opacity: 0; clip-path: inset(0 0 100% 0); } to { opacity: 1; clip-path: inset(0 0 0 0); } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 1ms !important; animation-delay: 0ms !important; transition-duration: 1ms !important; } }

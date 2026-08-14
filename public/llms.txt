@@ -1,0 +1,15 @@
+# Czarniak · Podkówka — Kancelaria Notarialna
+
+Kancelaria notarialna Marii Czarniak i Sary Podkówki we Wrocławiu, na Muchoborze Wielkim.
+
+## Główne obszary
+
+- Nieruchomości
+- Spółki i biznes
+- Spadki
+- Rodzina
+- Pozostałe czynności notarialne
+
+Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możliwość opisania sprawy w lokalnej wyszukiwarce. Pełna struktura adresów URL zostanie rozwinięta wraz z kolejnymi sprintami.
+
+Utrzymuj ten plik aktualny przy rozbudowie witryny i dodawaniu kolejnych usług oraz podstron.

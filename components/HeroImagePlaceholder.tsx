@@ -1,0 +1,7 @@
+import Image from "next/image";
+
+type HeroImagePlaceholderProps = { src?: string; alt?: string };
+
+export function HeroImagePlaceholder({ src, alt = "Maria Czarniak i Sara Podkówka" }: HeroImagePlaceholderProps) {
+  return <div className="relative pl-3 sm:pl-5"><span className="intro-visual-line absolute bottom-0 left-0 top-0 w-px bg-olive" aria-hidden="true" /><div className="intro-visual-image relative aspect-[4/5] overflow-hidden bg-secondary" data-image-slot="hero-notariuszki.jpg">{src ? <Image src={src} alt={alt} fill sizes="(max-width: 1024px) 100vw, 45vw" className="object-cover" priority /> : <div className="absolute inset-0 flex flex-col justify-between p-6 sm:p-8" aria-label="Miejsce na fotografię notariuszek" role="img"><div className="flex items-center justify-between text-[10px] uppercase tracking-[0.18em] text-foreground/70"><span>Portret kancelarii</span><span>01</span></div><div><div className="mb-5 h-px w-16 bg-olive/60" /><p className="max-w-[220px] font-display text-[34px] leading-[0.95] tracking-[-0.04em] text-foreground sm:text-[42px]">Dwie perspektywy.<br />Jedna spokojna<br />droga.</p><p className="mt-5 max-w-[250px] text-[11px] leading-5 text-foreground/70">Miejsce na docelową fotografię Marii Czarniak i Sary Podkówki.</p></div></div>}</div><p className="mt-4 pl-1 text-[10px] leading-5 uppercase tracking-[0.16em] text-foreground/70 sm:mt-3">Wrocław · Muchobór Wielki</p></div>;
+}
