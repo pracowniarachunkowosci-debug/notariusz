@@ -12,4 +12,9 @@ Kancelaria notarialna Marii Czarniak i Sary Podkówki we Wrocławiu, na Muchobor
 
 Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możliwość opisania sprawy w lokalnej wyszukiwarce. Pełna struktura adresów URL zostanie rozwinięta wraz z kolejnymi sprintami.
 
+## Usługa
+
+- Założenie spółki z o.o. u notariusza: /spolki/zalozenie-spolki-zoo/
+- Strona porządkuje przygotowanie umowy, różnice między S24 a aktem notarialnym oraz obszary po podpisaniu. Treści wymagające weryfikacji merytorycznej są oznaczone w danych strony.
+
 Utrzymuj ten plik aktualny przy rozbudowie witryny i dodawaniu kolejnych usług oraz podstron.
