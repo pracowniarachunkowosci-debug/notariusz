@@ -10,7 +10,7 @@ Kancelaria notarialna Marii Czarniak i Sary Podkówki we Wrocławiu, na Muchobor
 - Rodzina
 - Pozostałe czynności notarialne
 
-Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możliwość opisania sprawy w lokalnej wyszukiwarce. Dostępne są również merytoryczne przewodniki dotyczące założenia spółki z o.o. u notariusza, sprzedaży mieszkania u notariusza oraz aktu poświadczenia dziedziczenia.
+Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możliwość opisania sprawy w lokalnej wyszukiwarce. Dostępne są również merytoryczne przewodniki dotyczące założenia spółki z o.o. u notariusza, sprzedaży mieszkania u notariusza, aktu poświadczenia dziedziczenia oraz najmu okazjonalnego u notariusza.
 
 ## Usługa
 
@@ -20,5 +20,7 @@ Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możli
 - Strona porządkuje dokumenty, hipotekę, spadek lub darowiznę, świadectwo energetyczne, przebieg sprzedaży i koszty.
 - Akt poświadczenia dziedziczenia u notariusza: /spadki/akt-poswiadczenia-dziedziczenia/
 - Strona porządkuje udział spadkobierców, dokumenty, testament, termin 6 miesięcy, przeszkody, rejestrację APD i kolejne kroki.
+- Najem okazjonalny u notariusza: /najem-okazjonalny/
+- Strona porządkuje oświadczenie najemcy, dokumenty, wskazanie innego lokalu, termin 14 dni na zgłoszenie i dalszą procedurę.
 
 Utrzymuj ten plik aktualny przy rozbudowie witryny i dodawaniu kolejnych usług oraz podstron.

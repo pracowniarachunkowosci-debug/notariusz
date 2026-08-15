@@ -7,5 +7,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/spolki/zalozenie-spolki-zoo/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/nieruchomosci/sprzedaz-mieszkania/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/spadki/akt-poswiadczenia-dziedziczenia/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/najem-okazjonalny/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
   ];
 }
