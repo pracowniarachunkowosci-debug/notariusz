@@ -1,7 +1,7 @@
 const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 export const siteUrl = configuredSiteUrl?.replace(/\/$/, "") || "http://localhost:3000";
-export const basePath = process.env.BASE_PATH?.replace(/\/$/, "") ?? "";
+export const basePath = (process.env.NEXT_PUBLIC_BASE_PATH ?? process.env.BASE_PATH)?.replace(/\/$/, "") ?? "";
 export const isPreview = process.env.NEXT_PUBLIC_IS_PREVIEW === "true";
 
 function isExternalUrl(path: string) {

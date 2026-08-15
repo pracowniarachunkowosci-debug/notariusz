@@ -23,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       BASE_PATH: /notariusz
+      NEXT_PUBLIC_BASE_PATH: /notariusz
       NEXT_PUBLIC_SITE_URL: https://pracowniarachunkowosci-debug.github.io/notariusz
       NEXT_PUBLIC_IS_PREVIEW: "true"
     steps:
