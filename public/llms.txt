@@ -10,11 +10,13 @@ Kancelaria notarialna Marii Czarniak i Sary Podkówki we Wrocławiu, na Muchobor
 - Rodzina
 - Pozostałe czynności notarialne
 
-Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możliwość opisania sprawy w lokalnej wyszukiwarce. Dostępny jest również merytoryczny przewodnik dotyczący założenia spółki z o.o. u notariusza.
+Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możliwość opisania sprawy w lokalnej wyszukiwarce. Dostępne są również merytoryczne przewodniki dotyczące założenia spółki z o.o. u notariusza oraz sprzedaży mieszkania u notariusza.
 
 ## Usługa
 
 - Założenie spółki z o.o. u notariusza: /spolki/zalozenie-spolki-zoo/
 - Strona porządkuje przygotowanie umowy, różnice między S24 a aktem notarialnym oraz obszary po podpisaniu. Treści wymagające weryfikacji merytorycznej są oznaczone w danych strony.
+- Sprzedaż mieszkania u notariusza: /nieruchomosci/sprzedaz-mieszkania/
+- Strona porządkuje dokumenty, hipotekę, spadek lub darowiznę, świadectwo energetyczne, przebieg sprzedaży i koszty.
 
 Utrzymuj ten plik aktualny przy rozbudowie witryny i dodawaniu kolejnych usług oraz podstron.

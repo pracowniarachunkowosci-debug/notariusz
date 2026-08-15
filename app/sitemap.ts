@@ -5,5 +5,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: baseUrl, lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
     { url: `${baseUrl}/spolki/zalozenie-spolki-zoo/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/nieruchomosci/sprzedaz-mieszkania/`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
   ];
 }
