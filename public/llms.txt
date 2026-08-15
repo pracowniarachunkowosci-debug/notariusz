@@ -14,13 +14,13 @@ Strona zawiera informacje o przygotowaniu do czynności notarialnych oraz możli
 
 ## Usługa
 
-- Założenie spółki z o.o. u notariusza: /spolki/zalozenie-spolki-zoo/
+- Założenie spółki z o.o. u notariusza: ./spolki/zalozenie-spolki-zoo/
 - Strona porządkuje przygotowanie umowy, różnice między S24 a aktem notarialnym oraz obszary po podpisaniu. Treści wymagające weryfikacji merytorycznej są oznaczone w danych strony.
-- Sprzedaż mieszkania u notariusza: /nieruchomosci/sprzedaz-mieszkania/
+- Sprzedaż mieszkania u notariusza: ./nieruchomosci/sprzedaz-mieszkania/
 - Strona porządkuje dokumenty, hipotekę, spadek lub darowiznę, świadectwo energetyczne, przebieg sprzedaży i koszty.
-- Akt poświadczenia dziedziczenia u notariusza: /spadki/akt-poswiadczenia-dziedziczenia/
+- Akt poświadczenia dziedziczenia u notariusza: ./spadki/akt-poswiadczenia-dziedziczenia/
 - Strona porządkuje udział spadkobierców, dokumenty, testament, termin 6 miesięcy, przeszkody, rejestrację APD i kolejne kroki.
-- Najem okazjonalny u notariusza: /najem-okazjonalny/
+- Najem okazjonalny u notariusza: ./najem-okazjonalny/
 - Strona porządkuje oświadczenie najemcy, dokumenty, wskazanie innego lokalu, termin 14 dni na zgłoszenie i dalszą procedurę.
 
 Utrzymuj ten plik aktualny przy rozbudowie witryny i dodawaniu kolejnych usług oraz podstron.

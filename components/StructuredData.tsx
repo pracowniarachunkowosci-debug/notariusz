@@ -1,7 +1,7 @@
 import { profiles } from "@/lib/home-data";
+import { siteUrl } from "@/lib/site-config";
 
 export function StructuredData() {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://notariusz.example";
   const data = {
     "@context": "https://schema.org",
     "@type": ["LegalService", "Notary"],

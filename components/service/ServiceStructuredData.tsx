@@ -1,4 +1,5 @@
 import type { companyFormationData } from "@/lib/company-formation-data";
+import { absoluteSiteUrl } from "@/lib/site-config";
 
 type Breadcrumbs = typeof companyFormationData.breadcrumb;
 
@@ -10,7 +11,7 @@ export function ServiceStructuredData({ breadcrumbs }: { breadcrumbs: Breadcrumb
       "@type": "ListItem",
       position: index + 1,
       name: item.label,
-      item: `https://notariusz.example${item.href}`,
+      item: absoluteSiteUrl(item.href),
     })),
   };
 

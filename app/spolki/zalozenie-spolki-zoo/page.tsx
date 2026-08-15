@@ -14,16 +14,17 @@ import { ServiceToc } from "@/components/service/ServiceToc";
 import { SourceList } from "@/components/service/SourceList";
 import { MobileStickyActions } from "@/components/MobileStickyActions";
 import { companyFormationData } from "@/lib/company-formation-data";
+import { absoluteSiteUrl, sitePath } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "Założenie spółki z o.o. u notariusza | Wrocław",
   description: "Informacje o przygotowaniu umowy spółki z o.o., spotkaniu u notariusza, różnicach między S24 a aktem notarialnym oraz kolejnych krokach po podpisaniu.",
-  alternates: { canonical: "/spolki/zalozenie-spolki-zoo/" },
+  alternates: { canonical: absoluteSiteUrl("/spolki/zalozenie-spolki-zoo/") },
   openGraph: {
     title: "Założenie spółki z o.o. u notariusza | Wrocław",
     description: "Przygotowanie umowy spółki z o.o. i rozmowa o kolejnych krokach w kancelarii notarialnej we Wrocławiu.",
     type: "article",
-    url: "/spolki/zalozenie-spolki-zoo/",
+    url: absoluteSiteUrl("/spolki/zalozenie-spolki-zoo/"),
   },
 };
 
@@ -55,7 +56,7 @@ export default function CompanyFormationPage() {
           {companyFormationData.breadcrumb.map((item, index) => (
             <span className="flex min-w-0 items-start gap-2" key={item.href}>
               {index > 0 ? <span aria-hidden="true">→</span> : null}
-              {index === companyFormationData.breadcrumb.length - 1 ? <span className="min-w-0 break-words text-foreground">{item.label}</span> : <a className="min-w-0 break-words hover:text-foreground" href={item.href}>{item.label}</a>}
+              {index === companyFormationData.breadcrumb.length - 1 ? <span className="min-w-0 break-words text-foreground">{item.label}</span> : <a className="min-w-0 break-words hover:text-foreground" href={sitePath(item.href)}>{item.label}</a>}
             </span>
           ))}
         </nav>
@@ -100,7 +101,7 @@ export default function CompanyFormationPage() {
                   </article>
                 ))}
               </div>
-              {companyFormationData.afterSigning.relatedExpertResource ? <a href={companyFormationData.afterSigning.relatedExpertResource.href}>{companyFormationData.afterSigning.relatedExpertResource.label}</a> : null}
+              {companyFormationData.afterSigning.relatedExpertResource ? <a href={sitePath(companyFormationData.afterSigning.relatedExpertResource.href)}>{companyFormationData.afterSigning.relatedExpertResource.label}</a> : null}
             </section>
 
             <ServiceFaq faq={companyFormationData.faq} />

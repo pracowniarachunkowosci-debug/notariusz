@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
+import { absoluteSiteUrl, isPreview } from "@/lib/site-config";
+
+export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://notariusz.example";
-  return { rules: [{ userAgent: "*", allow: "/" }], sitemap: `${baseUrl}/sitemap.xml` };
+  if (isPreview) return { rules: [{ userAgent: "*", disallow: "/" }] };
+  return { rules: [{ userAgent: "*", allow: "/" }], sitemap: absoluteSiteUrl("/sitemap.xml") };
 }

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { BrandWordmark } from "@/components/BrandWordmark";
+import { sitePath } from "@/lib/site-config";
 
 const links = [
   { label: "Strona główna", href: "/" },
@@ -32,7 +33,7 @@ export function ServicePageHeader() {
 
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground lg:flex" aria-label="Główna nawigacja">
           {links.map((link) => (
-            <a className="transition-colors hover:text-foreground" href={link.href} key={link.href}>
+                <a className="transition-colors hover:text-foreground" href={sitePath(link.href)} key={link.href}>
               {link.label}
             </a>
           ))}
@@ -64,7 +65,7 @@ export function ServicePageHeader() {
           <div className="mx-auto flex max-w-[1280px] flex-col items-start gap-4 text-sm text-foreground">
             {links.map((link, index) => (
               <a
-                href={link.href}
+                href={sitePath(link.href)}
                 key={link.href}
                 onClick={() => setMenuOpen(false)}
                 ref={index === 0 ? firstLinkRef : undefined}
