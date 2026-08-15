@@ -9,7 +9,7 @@ export function ServiceToc({ items }: { items: TocItems }) {
       <div className="flex gap-5 overflow-x-auto pb-2 lg:block lg:space-y-3 lg:overflow-visible lg:pb-0">
         {items.map((item, index) => (
           <a className="flex shrink-0 items-start gap-3 text-sm text-muted-foreground transition-colors hover:text-foreground lg:gap-4" href={item.href} key={item.href}>
-            <span className="font-mono text-[0.65rem] text-border">0{index + 1}</span>
+            <span className="font-mono text-[0.65rem] text-border">{String(index + 1).padStart(2, "0")}</span>
             <span className="whitespace-nowrap lg:whitespace-normal">{item.label}</span>
           </a>
         ))}
